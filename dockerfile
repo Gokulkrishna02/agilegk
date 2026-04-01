@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY factorial.py .
 
-CMD ["python", "factorial.py"]
+ENTRYPOINT ["python", "factorial.py"]
